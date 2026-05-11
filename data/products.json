@@ -2,60 +2,123 @@
   "products": [
     {
       "id": 1,
-      "name": "Product 1",
+      "name": "Bagel",
+      "category": "Bagels",
       "description": "Description for Product 1",
-      "price": 19.99,
+      "price": 15.00,
       "image": "./assets/images/bagel 1.jpg"
     },
     {
       "id": 2,
-      "name": "Product 2",
+      "name": "Bagel",
+      "category": "Bagels",
       "description": "Description for Product 2",
-      "price": 29.99,
+      "price": 13.00,
       "image": "./assets/images/bagel 2.jpg"
     },
     {
       "id": 3,
-      "name": "Product 3",
+      "name": "Bagel",
+      "category": "Bagels",
       "description": "Description for Product 3",
-      "price": 39.99,
+      "price": 13.00,
       "image": "./assets/images/dips 1.jpg"
     },
     {
       "id": 4,
-      "name": "Product 4",
+      "name": "Bagel Combo",
+      "category": "Bagels",
       "description": "Description for Product 4",
-      "price": 19.99,
+      "price": 19.00,
       "image": "./assets/images/dips 2.jpg"
     },
     {
       "id": 5,
-      "name": "Product 5",
+      "name": "Bagel",
+      "category": "Bagels",
       "description": "Description for Product 5",
-      "price": 29.99,
+      "price": 17.00,
       "image": "./assets/images/carousel 7.jpg"
     },
     {
       "id": 6,
-      "name": "Product 6",
+      "name": "Tiramisu",
+      "category": "Bagels",
       "description": "Description for Product 6",
-      "price": 39.99,
+      "price": 10.00,
       "image": "./assets/images/carousel 6.jpg"
     },
     {
-      "id": 6,
-      "name": "Product 7",
-      "description": "Description for Product 3",
-      "price": 39.99,
+      "id": 7,
+      "name": "Bagel Mega Combo",
+      "category": "Bagels",
+      "description": "Description for Product 7",
+      "price": 30.00,
       "image": "./assets/images/bagels 6.jpg"
     },
     {
-      "id": 6,
-      "name": "Product 6",
-      "title": "Product 8",
-      "description": "Description for Product 3",
-      "price": 39.99,
-      "image": "./assets/images/carousel 2.jpg"
+      "id": 8,
+      "name": "Crush Point",
+      "category": "Drinks",
+      "description": "Description for Product 8",
+      "price": 25.00,
+      "image": "./assets/images/crushpoint.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Feijoa Sour",
+      "category": "Drinks",
+      "description": "Description for Product 9",
+      "price": 25.00,
+      "image": "./assets/images/feijoasour.png"
+    },
+    {
+      "id": 10,
+      "name": "Summertime",
+      "category": "Drinks",
+      "description": "Description for Product 10",
+      "price": 25.00,
+      "image": "./assets/images/summertime.png"
+    },
+    {
+      "id": 11,
+      "name": "Tequila Bloom",
+      "category": "Drinks",
+      "description": "Description for Product 11",
+      "price": 25.00,
+      "image": "./assets/images/tequilabloom.png"
+    },
+    {
+      "id": 12,
+      "name": "Lemon Fizz",
+      "category": "Drinks",
+      "description": "Description for Product 12",
+      "price": 25.00,
+      "image": "./assets/images/lemonfizz.png"
+    },
+    {
+      "id": 13,
+      "name": "Pink Kitten",
+      "category": "Drinks",
+      "description": "Description for Product 13",
+      "price": 25.00,
+      "image": "./assets/images/pinkkitten.png"
+    },
+    {
+      "id": 14,
+      "name": "Natakhtari",
+      "category": "Drinks",
+      "description": "Description for Product 14",
+      "price": 6.00,
+      "image": "./assets/images/beer.png"
+    },
+    {
+      "id": 15,
+      "name": "Black Lion Lager",
+      "category": "Drinks",
+      "description": "Description for Product 15",
+      "price": 8.00,
+      "image": "./assets/images/beer.png"
     }
   ]
 }

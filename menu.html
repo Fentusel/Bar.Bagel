@@ -7,10 +7,9 @@
     <meta name="description" content="Bagel Bar offers fresh, handmade bagels, delicious spreads, delicious cocktails, and premium coffee. Visit us for the best bagel experience in town." />
     <meta name="keywords" content="bagels, bagel bar, fresh bagels, coffee, coffee shop, breakfast, bakery, cocktails," />
     <meta name="author" content="Bagel Bar" />
-    <link rel="stylesheet" href="./styles/index.css" />
     <link rel="stylesheet"
-          href="./styles/menu.css">
-    <link rel="icon" href="./assets/icons/logo.jpg" type="image/jpg">
+          href="styles/menu.css">
+    <link rel="icon" href="assets/icons/logo.jpg" type="image/jpg">
 </head>
 <body>
 <div class="wrapper">
@@ -19,22 +18,38 @@
         <div id="navbar"></div>
         <div id="content">
             <div class="header">
-                <img src="./assets/icons/logo.jpg" alt="Bagel Bar Logo" class="logo"/>
+                <img src="assets/icons/logo.jpg" alt="Bagel Bar Logo" class="logo"/>
                 <span>Bar.Bagel</span> This is more than you see
             </div>
             <label for="sort"></label><select id="sort">
                 <option value="">Sort By</option>
                 <option value="price-asc">Price ↑</option>
                 <option value="price-desc">Price ↓</option>
-                <option value="name-asc">Name A-Z</option>
-                <option value="name-desc">Name Z-A</option>
+                <option value="Bagels">Bagels</option>
+                <option value="Drinks">Drinks</option>
             </select>
             <div id="products" class="products"></div>
+            <footer class="footer">
+                <div class="footer-column">
+                    <span class="footer-label">Navigation</span>
+                    <a href="#" class="footer-link">Products</a>
+                    <a href="#" class="footer-link">Location</a>
+                </div>
+                <div class="footer-column">
+                    <span class="footer-label">Contact</span>
+                    <p>Bar.Bagel@gmail.com</p>
+                    <p>+995 564 854 758</p>
+                </div>
+                <div class="footer-column">
+                    <span class="footer-label">Visit Us</span>
+                    <p>Fabrika Tbilisi</p>
+                    <p>Fabrika.Tbilisi@gmail.com</p>
+                </div>
+            </footer>
         </div>
     </div>
     <div class="wall">BAR <br> BAGEL</div>
-</div
->
-<script type="module" src="./scripts/menu.js"></script>
+</div>
+<script type="module" src="scripts/menu.js"></script>
 </body>
 </html>
